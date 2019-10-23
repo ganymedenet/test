@@ -12,7 +12,8 @@ x = 999 * 999;
 n += 1;
 } 
   
-println!("{}", now.elapsed().as_nanos());
+println!("{}\n", now.elapsed().as_nanos());
+println!("{}", x);
 
 }
 
