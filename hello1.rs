@@ -12,7 +12,7 @@ x = 999 * 999;
 n += 1;
 } 
   
-println!("{}\n", now.elapsed());
+println!("{}\n", start.elapsed());
 println!("{}", x);
 
 }
