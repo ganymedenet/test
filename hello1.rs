@@ -15,6 +15,6 @@ n += 1;
 } 
   
 println!("The value of x is: {}\n", x);
-println!("{}", now.elapsed().as_secs());
+println!("{}", now.elapsed().as_nanos());
 
 }
