@@ -7,11 +7,11 @@ let now = Instant::now();
 let mut n = 1; 
 let mut x:i128 = 5;
 
-while n < 10 {
+while n < 999 {
 
 x = x * n;
 n += 1;
- } 
+} 
   
 println!("The value of x is: {}\n", x);
 println!("{}", now.elapsed().as_secs());
