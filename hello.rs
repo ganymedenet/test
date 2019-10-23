@@ -1,7 +1,7 @@
 fn main(){
  
 let mut n = 1; 
-let mut x:i128 = 5;
+let x:i128 = 5;
 
 while n < 10 {
 
