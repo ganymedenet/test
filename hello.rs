@@ -5,7 +5,7 @@ let x:i128 = 5;
 
 while n < 10 {
 
-let x = x * n;
+x = x * n;
 n += 1;
  } 
   
