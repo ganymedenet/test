@@ -1,9 +1,15 @@
 fn main(){
+ 
+let mut x:i128 = 5;
 
-let x:i128 = 5;
+while n < 10 {
 
-let x = x * 545;
+let x = x * n;
+n += 1;
+ } 
+  
+println!("The value of x is: {}", x);
 
- println!("The value of x is: {}", x);
 
 }
+
