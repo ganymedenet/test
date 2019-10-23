@@ -1,4 +1,4 @@
-use std::time::{Instant};
+use std::time::Instant;
 
 fn main(){
 let now = Instant::now();
@@ -11,7 +11,7 @@ x = 999 * 999;
 n += 1;
 } 
   
-println!("{}\n", now.elapsed());
+println!("{}\n", now.elapsed().as_millis());
 println!("{}", x);
 
 }
