@@ -1,6 +1,6 @@
 fn main(){
 
-let x:i8 = 5;
+let x:i128 = 5;
 
 let x = x * 545;
 
