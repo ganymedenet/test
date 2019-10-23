@@ -1,3 +1,5 @@
-fn main() {
-    println!("Hello, world!");
-}
+let x:i8 = 5;
+
+x = x * 545;
+
+ println!("The value of x is: {}", x);
