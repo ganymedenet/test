@@ -1,5 +1,9 @@
+use std::time::{Duration, Instant};
+
 fn main(){
  
+let now = Instant::now();
+
 let mut n = 1; 
 let mut x:i128 = 5;
 
@@ -9,8 +13,9 @@ x = x * n;
 n += 1;
  } 
   
-println!("The value of x is: {}", x);
-
+println!("The value of x is: {}\n", x);
+println!("{}", now.elapsed().as_secs());
 
 }
+
 
