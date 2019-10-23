@@ -5,7 +5,7 @@ fn main(){
 let now = Instant::now();
 
 let mut n = 1; 
-let mut x:i128 = 1;
+let mut x:i128 = 5;
 
 while n < 99000000 {
 
