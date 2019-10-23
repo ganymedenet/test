@@ -7,7 +7,7 @@ let now = Instant::now();
 let mut n = 1; 
 let mut x:i128 = 1;
 
-while n < 9999999 {
+while n < 99000000 {
 
 x = 999 * 999;
 
