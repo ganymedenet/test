@@ -3,7 +3,7 @@ import time
 start_time = time.time()
 
 i = 1
-while i < 990000000:
+while i < 99000000:
   c = 999*999
   i += 1
 
