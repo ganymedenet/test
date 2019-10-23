@@ -1,7 +1,6 @@
 use std::time::{Instant};
 
 fn main(){
-
 let now = Instant::now();
   
 let mut n = 1; 
@@ -12,7 +11,7 @@ x = 999 * 999;
 n += 1;
 } 
   
-println!("{}\n", start.elapsed());
+println!("{}\n", now.elapsed());
 println!("{}", x);
 
 }
